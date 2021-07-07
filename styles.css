@@ -1,0 +1,72 @@
+body{
+    background:linear-gradient( to right, #5fbbcf,#f64f59 );
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#title, #description{
+    text-align: center;
+}
+
+button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    color: cadetblue;
+}
+
+.container{
+    width: 570px;
+    margin: 0 auto;
+    
+}
+input,button{
+    display: block;
+}
+
+#survey-form{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    line-height: 2.5;
+    font-size: 1.2rem;
+    padding: 50px;
+    border-radius: 1rem;
+}
+#survey-form:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+#name-label{
+    display: block;
+}
+#dropdown, .input-text , button{
+    
+    width: 100%;
+    height: 35px;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 7px;
+}
+#comment{
+    width: 100%;
+    padding: 3px 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+.radio-checkboxes{
+    display: flex;
+    align-items: center;
+    
+}
+.input-radio, .input-checkbox{
+    min-height: 1.15rem;
+    min-width: 1.15rem;
+    margin-right: 10px;
+}
+
+@media (max-width:602px){
+    .container{
+        width: 450px;
+    }
+}
